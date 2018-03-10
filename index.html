@@ -8,22 +8,32 @@
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
 
+
+        
+
     </head>
     <body class="container-fluid">
 
         <div class="app-wrapper">
 
-        	<p >Enter a postcode <input type="text" default="AB12 3CD" id="postcode-input"></input><button class="postcode-button">Input</button></p>
+        	<p >Enter a postcode <input type="text" size="15" id="postcode-input"></input><button class="postcode-button">Find</button></p>
 
             <p class="field-label">District: </p><p><input size="48" id="field1"></input></p>
             <p class="field-label">Region: </p><p><input size="48" id="field2"></input></p>
-            <p class="field-label">Constituency: </p><p><input size="48" id="field3"></input></p>
+            <p class="field-label">Lat: </p><p><input size="48" id="field4"></input></p>
+            <p class="field-label">Long: </p><p><input size="48" id="field5"></input></p>
 
+        </div>
+
+        <div class="app-wrapper">
+            <div id="map"></div>
         </div>
 
     </body>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/postcode.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPHGZ_Dqv1APLC5DWoYfCdiE7cSS_Ocl0&callback=initMap" async defer></script>
+
 
  </html>
