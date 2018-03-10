@@ -1,3 +1,5 @@
 # postcodes
 
-## Practice using AJAX to access the Postcodes.io API
+## Practice app using AJAX to access the Postcodes.io API
+
+

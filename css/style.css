@@ -1,16 +1,24 @@
 body {
 
-	color: red;
+	color: darkblue;
 }
 
 .app-wrapper {
 
+	background-color: #EAF7D4;
 	border: 1px solid black;
+	border-radius: 5px;
+	margin: 20px;
 	padding: 20px;
-	width: 500px;
+	width: 416px;
 }
 
 .postcode-input {
 
 	margin-top: 20px;
+}
+
+.field-label {
+
+	margin-bottom: 0px;
 }
