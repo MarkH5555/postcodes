@@ -13,21 +13,23 @@
 
     </head>
     <body class="container-fluid">
+        <div class="row">
 
-        <div class="app-wrapper">
+        <div class="app-wrapper col-md-4">
 
         	<p >Enter a postcode <input type="text" size="15" id="postcode-input"></input><button class="postcode-button">Find</button></p>
 
-            <p class="field-label">District: </p><p><input size="48" id="field1"></input></p>
-            <p class="field-label">Region: </p><p><input size="48" id="field2"></input></p>
-            <p class="field-label">Lat: </p><p><input size="48" id="field4"></input></p>
-            <p class="field-label">Long: </p><p><input size="48" id="field5"></input></p>
+            <p class="field-label">District: </p><p><input id="field1" class="input-field"></input></p>
+            <p class="field-label">Region: </p><p><input  id="field2" class="input-field"></input></p>
+            <p class="field-label">Lat: </p><p><input id="field4" class="input-field"></input></p>
+            <p class="field-label">Long: </p><p><input id="field5" class="input-field"></input></p>
 
         </div>
 
-        <div class="app-wrapper">
+        <div class="col-md-6">
             <div id="map"></div>
         </div>
+    </div>
 
     </body>
 

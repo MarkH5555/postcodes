@@ -21,7 +21,7 @@ clearFields();
 
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
-	  center: {lat: 55, lng: -5}, zoom: 5
+	  center: {lat: 54.5, lng: -4}, zoom: 5.8
 	});
 }
 
@@ -37,7 +37,7 @@ function getData(val) {
 
 		myLatLng = {lat: res.result.latitude, lng: res.result.longitude};	
 
-		marker = new google.maps.Marker({ position: myLatLng, title:"Location" });
+		marker = new google.maps.Marker({ position: myLatLng, title: val });
 
 		marker.setMap(map);
 
